@@ -28,13 +28,14 @@ for i in range(2*num-1):#9
     print((cnt-1)*'*',end='')
     print()
 
-a, b = map(int, input().split())  # 첫 번째 입력: 배열 크기
-x = []
+
+#a, b = map(int, input().split())  # 첫 번째 입력: 배열 크기
+#x = []
 
 # 두 번째 입력: 여러 줄 배열 복붙
-for _ in range(a):
-    row = input().strip()  # 한 줄 입력받기
-    x.append(list(row[:b]))  # 글자 단위로 나누어 리스트로 저장
+#for _ in range(a):
+#    row = input().strip()  # 한 줄 입력받기
+#    x.append(list(row[:b]))  # 글자 단위로 나누어 리스트로 저장
 
-print(x)
+#print(x)
 
